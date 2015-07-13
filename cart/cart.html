@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=no;" /><title>
+	购物车_Vcake
+</title>
+<link href="../res/jq/jquery.mobile.css" rel="stylesheet" type="text/css" /><link href="../css/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../res/jq/jquery.js"></script>
+    <script type="text/javascript" src="../res/js/core.js"></script>
+    <script type="text/javascript" src="../res/jq/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
+    <style type="text/css">
+        .ui-radio .ui-btn-text {
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/javascript">
+        $.mobile.ajaxEnabled = false;
+    </script>
+</head>
+<body>
+    <a name="top" id="top"></a>
+    <div class="m_dhbg">
+        <div class="m_dhny">
+            <a href="../index.html"><img src="../images/home1.jpg" border="0" style="float: left;"></a>
+            <span class="m_flny" style="text-shadow: none;">购物车</span>
+            <div class="m_dhnyr"><a href="../user/"><img src="../images/home2.jpg" border="0" style="float: right;"></a></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        
+
+        
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>蛋糕类产品</h3>
+                <ul data-role="listview" data-inset="false" data-theme="d" class="cart-item">
+                    
+                            <li class="cart-cake-row" rev="185256">
+                                <img src="../images/141938IO.png" border="0" />
+                                <h3>开心果慕斯（1.5磅）</h3>
+                                <h6>免费赠送5套餐具</h6>
+                                <p>
+                                    <span style="color:#ff6600;">折扣价：323 元</span><br />
+                                    <div data-role="fieldcontainer" class="cart-item-count">
+                                        <label for="num185256">数量：</label>
+                                        <div data-role="controlgroup" data-type="horizontal">
+                                            <input type="button" data-icon="minus" data-iconpos="notext" rev="185256" class="action-minus" />
+                                            <input type="button" id='num185256' value="1" price="323" itemId="185256" />
+                                            <input type="button" data-icon="plus" data-iconpos="notext"  rev="185256" class="action-plus" />
+                                        </div>
+                                    </div>
+                                    <div data-role="controlgroup"><legend>生日牌：</legend><label for="caketext185256_0">VCAKE LOGO</label><input type="radio" id="caketext185256_0" name="caketext185256" value="VCAKE LOGO" checked="checked" /><label for="caketext185256_1">Happy Birthday</label><input type="radio" id="caketext185256_1" name="caketext185256" value="Happy Birthday" /><label for="caketext185256_2">自定义</label><input id="caketext185256_2" type="radio" name="caketext185256" value="" /></div><input id="cakeCustomText185256" type="text" class="cake-text" value="" />
+                                    
+                                    <div data-role="content">小计：<span id="subtotal185256" class="subtotal">323</span> 元</div>
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=delete-cart-item&itemid=185256" data-role="button" class="action-delete">删除</a>
+                                    </div>
+                                </p>
+                            </li>
+                        
+                </ul>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>蛋糕可选配件</h3>
+                <ul data-role="listview" data-inset="false" data-theme="d" class="cart-item">
+                    
+                        <li>
+                            <div style="font-size:12px; line-height:20px; color:#ff6600;">以下配件每款蛋糕都有标配免费赠送，如赠送数量不够请自行选购</div>
+                        </li>
+                        
+                            <li>
+                                <img src="images/151306ax.jpg" border="0" />
+                                <h3>5盘组（5叉5盘）</h3>
+                                <p>
+                                    单价：15         元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1050&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <img src="http://www.vcake.cn/Upfiles/2014/09/17/151326bf.jpg" border="0" />
+                                <h3>8盘组（8叉8盘）</h3>
+                                <p>
+                                    单价：24         元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1062&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <img src="http://www.vcake.cn/Upfiles/2013/12/27/200748le.jpg" border="0" />
+                                <h3>刀</h3>
+                                <p>
+                                    单价：20         元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1065&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <img src="http://www.vcake.cn/Upfiles/2013/12/27/173158cF.jpg" border="0" />
+                                <h3>生日蜡烛</h3>
+                                <p>
+                                    单价：5          元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1000&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <img src="http://www.vcake.cn/Upfiles/2013/12/27/173356yd.jpg" border="0" />
+                                <h3>生日帽</h3>
+                                <p>
+                                    单价：1          元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1064&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                            <li>
+                                <img src="http://www.vcake.cn/Upfiles/2013/12/27/173325SD.jpg" border="0" />
+                                <h3>普洱茶</h3>
+                                <p>
+                                    单价：5          元<br />
+                                    <div data-role="controlcontainer">
+                                        <a href="?cmd=add-cakeoptional&gid=1063&cnt=1" data-role="button" class="action-buy-cakeoptional">加入选购</a>
+                                    </div>
+                                </p>
+                            </li>
+                            
+                </ul>
+            </div>
+            
+
+            <div data-role="content" data-theme="d">
+                <h3 style="text-align:center; line-height:40px; color:#ff6600;">商品合计：<span id="cartTotal">---</span> 元（不含运费）</h3>
+                <ul class="ui-grid-a">
+                    <li class="ui-block-a"><a id="linkBack" data-role="button" href="/catalog.aspx">&lt; 继续挑选</a></li>
+                    <li class="ui-block-b"><a id="linkNext" data-role="button" href="address.aspx">去结算 &gt;</a></li>
+                </ul>
+            </div>
+            
+        
+
+        
+    </div>
+    
+<div class="end_wz">
+    <ul>
+        <li>
+            
+                 <a href="/user/login.html" data-role="none">登陆</a>
+                <a href="/user/regist.html" data-role="none">注册</a>
+            
+            
+            <a href="#top" data-role="none">返回顶部</a>
+        </li>
+        <li style="height:auto; padding-bottom:1em;">
+            订购电话：400-029-9797<br />
+            Copyright@ 2013 m.vcake.cn
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

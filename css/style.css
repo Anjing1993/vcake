@@ -1,0 +1,106 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+    display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+
+.scroll {
+    width: 300px;
+    height: 130px;
+    margin: 5px auto 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.mod_01 {
+    float: left;
+    width: 320px;
+}
+
+    .mod_01 img {
+        display: block;
+        width: 300px;
+        height: 130px;
+    }
+
+.dotModule_new {
+    padding: 0 5px;
+    height: 11px;
+    line-height: 6px;
+    -webkit-border-radius: 11px;
+    background: rgba(45,45,45,0.5);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    z-index: 11;
+}
+
+#slide_01_dot {
+    text-align: center;
+}
+
+    #slide_01_dot span {
+        display: inline-block;
+        margin: 0 3px;
+        width: 5px;
+        height: 5px;
+        vertical-align: middle;
+        background: #f7f7f7;
+        -webkit-border-radius: 5px;
+    }
+
+    #slide_01_dot .selected {
+        background: #66ff33;
+    }
+
+.clear {
+    clear: both;
+}
